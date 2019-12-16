@@ -11,6 +11,7 @@ const columns = [
   { Header: 'TIME', accessor: ({ arrival }) => arrival.toLocaleTimeString(), id: 'arrival' },
   { Header: 'DESTINATION', accessor: 'destination' },
   { Header: 'TRAIN', accessor: 'train' },
+  { Header: 'STATUS', accessor: 'status' },
 ];
 
 function App({ location, match }) {
